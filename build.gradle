@@ -24,5 +24,5 @@ simpleGradlePluginPublishConfiguration {
 	id = 'com.zoltu.kotlin'
 	displayName = 'Unofficial Kotlin'
 	description = "An unofficial release of the official Kotlin Gradle Plugin.  The only reason this exists is because JetBrains doesn't yet publish the kotlin plugin to plugins.gradle.org.  Once https://youtrack.jetbrains.com/issue/KT-5756 is resolved, this plugin will no longer be necessary."
-	tags = ['']
+	tags = ['kotlin', 'unofficial']
 }
