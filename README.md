@@ -8,3 +8,7 @@ An unofficial release of the official Kotlin Gradle Plugin.  The only reason thi
 ### Syncing with Official Plugin Version
 
 Change [this line](https://github.com/Zoltu/kotlin-gradle-plugin/blob/master/build.gradle#L8) to match the current release of the official kotlin plugin publised to maven central.
+
+### Contributing
+
+PRs welcome.  The only thing to really contribute is bumping the version number (see above).  If you submit a PR that updates the version to match the latest official version I'll likely accept pretty quickly and the CI server should get a new version out within a few minutes.
