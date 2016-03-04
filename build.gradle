@@ -1,23 +1,28 @@
 plugins {
-	id 'com.zoltu.git-versioning' version '2.0.1'
 	id 'com.zoltu.simple-gradle-plugin-publisher' version '1.0.4'
 }
 
 apply plugin: 'groovy'
 
+group 'com.zoltu'
+version '1.0.0'
+
+repositories {
+	mavenCentral()
+}
+
 dependencies {
 	compile gradleApi()
 	compile localGroovy()
+	compile(group: 'org.jetbrains.kotlin', name: 'kotlin-gradle-plugin', version: version)
 }
-
-group 'com.zoltu'
 
 simpleGradlePluginPublishConfiguration {
 	gradlePublishKey = System.getenv('GRADLE_PUBLISH_KEY')
 	gradlePublishSecret = System.getenv('GRADLE_PUBLISH_SECRET')
 	vcsUrl = 'https://github.com/Zoltu/kotlin-gradle-plugin'
-	id = 'com.zoltu.kotlin-gradle-plugin'
-	displayName = 'kotlin-gradle-plugin'
-	description = 'A thin wrapper around the official Kotlin Gradle Plugin that is published to plugins.gradle.org.'
+	id = 'com.zoltu.kotlin'
+	displayName = 'Unofficial Kotlin'
+	description = "An unofficial release of the official Kotlin Gradle Plugin.  The only reason this exists is because JetBrains doesn't yet publish the kotlin plugin to plugins.gradle.org.  Once https://youtrack.jetbrains.com/issue/KT-5756 is resolved, this plugin will no longer be necessary."
 	tags = ['']
 }
