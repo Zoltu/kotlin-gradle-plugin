@@ -1,7 +1,7 @@
 cache:
   - C:\Users\appveyor\.gradle -> **\*.gradle
 
-version: {build}
+version: '{build}'
 
 skip_tags: true
 branches:
