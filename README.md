@@ -7,7 +7,7 @@ An unofficial release of the official Kotlin Gradle Plugin on [plugins.gradle.or
 
 ### Syncing with Official Plugin Version
 
-Change [this line](https://github.com/Zoltu/kotlin-gradle-plugin/blob/master/build.gradle#L8) to match the current release of the official kotlin plugin publised to maven central.
+Change [this line](https://github.com/Zoltu/kotlin-gradle-plugin/blob/master/build.gradle#L8) to match the current release of the official kotlin plugin publised to [maven central](http://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22org.jetbrains.kotlin%22%20AND%20a%3A%22kotlin-gradle-plugin%22).
 
 ### Contributing
 
