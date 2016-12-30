@@ -5,7 +5,7 @@ plugins {
 apply plugin: 'groovy'
 
 group 'com.zoltu'
-version '1.0.5-3'
+version '1.0.6'
 
 repositories {
 	mavenCentral()
