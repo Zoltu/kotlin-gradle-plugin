@@ -1,5 +1,10 @@
 [![Build Status](https://ci.appveyor.com/api/projects/status/qhrkr8hwohe1lsba?svg=true)](https://ci.appveyor.com/project/Zoltu/kotlin-gradle-plugin)
 
+# _*Deprecated!*_
+Jetbrain has released an official version of the Kotlin plugin on [plugins.gradle.org](https://plugins.gradle.org/search?term=org.jetbrains.kotlin).  The one in particular that replaces this plugin is [org.jetbrains.kotlin.jvm](https://plugins.gradle.org/plugin/org.jetbrains.kotlin.jvm).
+
+I'm leaving this repo up for now to give people time to migrate, but I will no longer be updating this plugin to new versions of Kotlin and will eventually delete this repo and the Gradle Plugin.
+
 # kotlin-gradle-plugin
 An unofficial release of the official Kotlin Gradle Plugin on [plugins.gradle.org](https://plugins.gradle.org/plugin/com.zoltu.kotlin).  The only reason this exists is because JetBrains doesn't yet publish the kotlin plugin to [plugins.gradle.org](https://plugins.gradle.org).  Once https://youtrack.jetbrains.com/issue/KT-5756 is resolved, this plugin will no longer be necessary.
 
