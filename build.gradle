@@ -5,7 +5,7 @@ plugins {
 apply plugin: 'groovy'
 
 group 'com.zoltu'
-version '1.1.0'
+version '1.1.1'
 
 repositories {
 	mavenCentral()
@@ -22,7 +22,7 @@ simpleGradlePluginPublishConfiguration {
 	gradlePublishSecret = System.getenv('GRADLE_PUBLISH_SECRET')
 	vcsUrl = 'https://github.com/Zoltu/kotlin-gradle-plugin'
 	id = 'com.zoltu.kotlin'
-	displayName = 'Unofficial Kotlin'
-	description = "An unofficial release of the official Kotlin Gradle Plugin.  The only reason this exists is because JetBrains doesn't yet publish the kotlin plugin to plugins.gradle.org.  Once https://youtrack.jetbrains.com/issue/KT-5756 is resolved, this plugin will no longer be necessary."
+	displayName = 'Deprecated Unofficial Kotlin'
+	description = "Deprecated, please use the official Jetbrains Kotlin plugin from https://plugins.gradle.org/plugin/org.jetbrains.kotlin.jvm."
 	tags = ['kotlin', 'unofficial']
 }
